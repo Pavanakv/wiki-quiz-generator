@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Wiki Quiz Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>🧠 AI Wikipedia Quiz Generator</h1>
+<p class="subtitle">Generate quizzes automatically from Wikipedia articles using AI</p>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="openTab('generate')">Generate Quiz</button>
+  <button class="tab-btn" onclick="openTab('history')">Past Quizzes</button>
+</div>
+
+<!-- TAB 1 -->
+<div id="generate" class="tab-content active">
+  <h2>Generate Quiz</h2>
+
+  <div class="input-box">
+    <input id="urlInput" placeholder="Paste Wikipedia URL here..." />
+    <button onclick="generateQuiz()">Generate</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<!-- TAB 2 -->
+<div id="history" class="tab-content">
+  <h2>Past Quizzes</h2>
+  <button class="refresh-btn" onclick="loadHistory()">Refresh History</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Wikipedia URL</th>
+        <th>Date</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="historyTable"></tbody>
+  </table>
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()" class="close">&times;</span>
+    <h2>Quiz Details</h2>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

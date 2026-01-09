@@ -1,0 +1,83 @@
+{
+  "id": 2,
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "title": "Artificial intelligence",
+  "summary": "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of 'intelligent agents': any device that perceives its environment and takes actions that maximize its chance of achieving its goals.",
+  "sections": [
+    "History",
+    "Goals",
+    "Tools",
+    "Applications",
+    "Philosophy",
+    "Ethics",
+    "Future"
+  ],
+  "quiz": [
+    {
+      "question": "What is Artificial Intelligence primarily concerned with?",
+      "options": [
+        "Building faster computers",
+        "Creating intelligent agents that perceive and act",
+        "Developing websites",
+        "Designing hardware chips"
+      ],
+      "correct_answer": "Creating intelligent agents that perceive and act",
+      "difficulty": "easy",
+      "explanation": "AI focuses on systems that perceive their environment and take actions to achieve goals."
+    },
+    {
+      "question": "Which of the following is a major application area of Artificial Intelligence?",
+      "options": [
+        "Word processing",
+        "Machine learning and robotics",
+        "Manual data entry",
+        "Paper-based accounting"
+      ],
+      "correct_answer": "Machine learning and robotics",
+      "difficulty": "easy",
+      "explanation": "AI is widely applied in machine learning, robotics, vision, and language processing."
+    },
+    {
+      "question": "Which field is most closely related to Artificial Intelligence?",
+      "options": [
+        "Astrology",
+        "Computer Science",
+        "Civil Engineering",
+        "Geology"
+      ],
+      "correct_answer": "Computer Science",
+      "difficulty": "medium",
+      "explanation": "AI is a major branch of computer science dealing with intelligent systems."
+    },
+    {
+      "question": "Which topic often raises concerns in Artificial Intelligence development?",
+      "options": [
+        "Ethics and safety",
+        "Paper consumption",
+        "Internet cables",
+        "Office management"
+      ],
+      "correct_answer": "Ethics and safety",
+      "difficulty": "medium",
+      "explanation": "Ethical issues such as bias, job impact, and safety are central to AI discussions."
+    },
+    {
+      "question": "Which statement best describes Artificial Intelligence?",
+      "options": [
+        "Machines performing only fixed tasks",
+        "Machines capable of learning and decision making",
+        "Computers used only for calculations",
+        "Devices that store information"
+      ],
+      "correct_answer": "Machines capable of learning and decision making",
+      "difficulty": "hard",
+      "explanation": "AI systems are designed to learn from data and make intelligent decisions."
+    }
+  ],
+  "related_topics": [
+    "Machine learning",
+    "Neural networks",
+    "Robotics",
+    "Computer vision"
+  ]
+}
