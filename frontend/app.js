@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000";
+const API = "https://wiki-quiz-generator-sk32.onrender.com";
 
 function openTab(tab) {
   document.querySelectorAll(".tab-content").forEach(t => t.classList.remove("active"));

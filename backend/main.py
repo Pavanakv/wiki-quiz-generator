@@ -61,7 +61,62 @@ def generate(url: str):
     except Exception as e:
         print("SERVER ERROR:", e)
         return {"error": "Internal server error"}
-        
+        demo_quiz = {
+            "quiz": [
+                {
+                    "question": "Who was Alan Turing?",
+                    "options": [
+                        "A mathematician and computer scientist",
+                        "A novelist",
+                        "A politician",
+                        "A physicist"
+                    ],
+                    "correct_answer": "A mathematician and computer scientist",
+                    "difficulty": "easy",
+                    "explanation": "Alan Turing is considered the father of computer science."
+                },
+                {
+                    "question": "What was Alan Turing famous for during World War II?",
+                    "options": [
+                        "Breaking the Enigma code",
+                        "Inventing radar",
+                        "Building rockets",
+                        "Leading the army"
+                    ],
+                    "correct_answer": "Breaking the Enigma code",
+                    "difficulty": "medium",
+                    "explanation": "He worked at Bletchley Park to crack the Enigma code."
+                },
+                {
+                    "question": "What field is Alan Turing strongly associated with?",
+                    "options": [
+                        "Computer Science",
+                        "Civil Engineering",
+                        "Biology",
+                        "Chemistry"
+                    ],
+                    "correct_answer": "Computer Science",
+                    "difficulty": "easy",
+                    "explanation": "Turing laid the foundations of modern computing."
+                }
+            ],
+            "related_topics": [
+                "Bletchley Park",
+                "Enigma machine",
+                "Artificial Intelligence",
+                "History of Computing"
+            ]
+        }
+
+        return {
+            "id": -1,
+            "url": url,
+            "quiz": demo_quiz,
+            "note": "Demo mode (Gemini API quota exceeded)"
+        }
+
+
+
     finally:
         db.close()
 
